@@ -24,7 +24,7 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
+  /* display: flex; */
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
@@ -65,4 +65,28 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+.nav-link {
+  margin-left: 40px;
+}
+
+/* Base style for all footer links */
+.footer-link {
+  color: #777;
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+
+/* Hover effect for footer links */
+.footer-link:hover {
+  color: blue;
+}
+
+/* Styling for the bottom row of links */
+.footer-bottom-links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px; /* Adjusts spacing between items */
 }

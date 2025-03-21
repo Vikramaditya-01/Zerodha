@@ -1,8 +1,13 @@
-import React from 'react';
+import React from "react";
+import AboutHeroSection from "./AboutHeroSection";
+import Team from "./Team";
 function AboutPage() {
-    return ( 
-        <h1>About Page</h1>
-     );
+  return (
+    <>
+      <AboutHeroSection />
+      <Team />
+    </>
+  );
 }
 
 export default AboutPage;
