@@ -19,8 +19,8 @@ function LeftImage({
           <h1>{productName}</h1>
           <p>{productDescription}</p>
           <div>
-            <a href={tryDemo}>Try Demo</a>
-            <a href={learnMore} style={{marginLeft : "10%"}}>Learn More</a>
+            <a href={tryDemo}>Try Demo <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+            <a href={learnMore} style={{marginLeft : "10%"}}>Learn More <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
           </div>
           <div className="mt-3">
             <a href={googlePlay}>
