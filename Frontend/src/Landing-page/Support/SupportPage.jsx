@@ -1,7 +1,12 @@
 import React from 'react';
+import SupportHeroSection from './SupportHeroSection';
+import CreateTicket from './CreateTicket';
 function SupportPage() {
     return ( 
-        <h1>SupportPage</h1>
+        <>
+        <SupportHeroSection />
+        <CreateTicket />
+        </>
      );
 }
 
